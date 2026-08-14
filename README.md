@@ -1,102 +1,122 @@
 # 📊 Retail Sales Dashboard
 
+## 🎓 Internship Project
+
+A Power BI dashboard developed to analyze retail sales performance, customer segments, and profitability across different cities and product sub-categories.
+
+---
+
 ## 📌 Project Overview
 
-This project presents an interactive **Retail Sales Dashboard** designed to analyze sales performance, profitability, customer behavior, and product trends.
+This project focuses on analyzing retail sales data and transforming it into an interactive Power BI dashboard.
 
-The dashboard transforms raw retail sales data into meaningful business insights using interactive visualizations and key performance indicators (KPIs).
+The dashboard provides a visual overview of:
 
-## 🎯 Objectives
+- Sales performance by city
+- Profit performance by city
+- Customer distribution by segment
+- Profit contribution by product sub-category
 
-- Analyze overall retail sales performance
-- Track revenue and profit trends
-- Identify top-performing products and categories
-- Analyze customer purchasing behavior
-- Compare sales across different regions
-- Identify profitable and underperforming areas
-- Support data-driven business decisions
+The goal of the project is to help businesses understand their sales and profitability patterns and make data-driven decisions.
+
+---
+
+## 🎯 Project Objectives
+
+The main objectives of this project are:
+
+- Analyze total sales across different cities
+- Compare sales and profit performance
+- Understand customer segmentation
+- Identify profitable product sub-categories
+- Analyze the contribution of different customer segments
+- Present business insights using interactive visualizations
+
+---
 
 ## 🛠️ Tools & Technologies
 
-- **Power BI** – Dashboard development and visualization
-- **Excel / CSV** – Data source
+- **Microsoft Power BI** – Dashboard development and visualization
 - **Power Query** – Data cleaning and transformation
-- **DAX** – Calculated measures and KPIs
+- **DAX** – Data analysis and calculated measures
+- **Excel / CSV** – Dataset
+
+---
+
+## 📊 Dashboard Visualizations
+
+### 1. Total Sales and Total Profit by City
+
+A line chart is used to compare total sales and total profit across different cities.
+
+This visualization helps identify cities with higher sales and profitability and highlights variations in business performance across locations.
+
+---
+
+### 2. Total Customers by Segment
+
+A donut chart represents the distribution of customers across three segments:
+
+- 🟦 Consumer
+- 🔵 Corporate
+- 🟠 Home Office
+
+The dashboard shows that the **Consumer segment has the largest customer contribution**, followed by Corporate and Home Office.
+
+---
+
+### 3. Total Profit by Sub-Category
+
+A treemap is used to visualize profit contribution across different product sub-categories.
+
+Major sub-categories shown include:
+
+- Binders
+- Chairs
+- Accessories
+- Phones
+- Paper
+- Storage
+- Envelopes
+- Art
+- Labels
+- Bookcases
+
+The size of each section represents its relative contribution to total profit.
+
+---
+
+## 🔍 Key Insights
+
+Based on the dashboard:
+
+- The **Consumer segment** represents the largest customer group.
+- Customer distribution is divided among **Consumer, Corporate, and Home Office** segments.
+- **Binders** and **Phones** are among the prominent sub-categories in terms of profit contribution.
+- Profit and sales vary considerably across cities.
+- The dashboard helps identify cities and product categories that require further business analysis.
+- The treemap provides an easy way to compare profitability across multiple product sub-categories.
+
+---
+
+## 📈 Dashboard Preview
+
+![Retail Sales Dashboard](Screenshots/dashboard.png)
+
+---
 
 ## 📂 Project Structure
 
 ```text
 Retail-Sales-Dashboard/
 │
-├── data/
+├── Data/
 │   └── retail_sales_data.csv
 │
-├── dashboard/
+├── Dashboard/
 │   └── Retail_Sales_Dashboard.pbix
 │
-├── screenshots/
+├── Screenshots/
 │   └── dashboard.png
 │
 └── README.md
-Key KPIs
-💰 Total Sales
-💵 Total Profit
-📦 Total Quantity Sold
-🧾 Total Orders
-📊 Average Order Value
-📈 Profit Margin
-📊 Dashboard Features
-Sales Analysis
-Total sales performance
-Monthly sales trends
-Sales by category
-Sales by product
-Profit Analysis
-Total profit
-Profit by category
-Profit trends
-Top and low-performing products
-Regional Analysis
-Sales by region
-Profit by region
-Regional performance comparison
-Customer Analysis
-Customer purchasing patterns
-Top customers
-Customer contribution to total sales
-💡 Key Insights
-Identified the highest-performing product categories.
-Analyzed monthly sales trends.
-Identified products contributing significantly to revenue.
-Compared regional sales and profitability.
-Identified areas for improving business performance.
-
-Note: Update these insights according to the actual results from your dashboard.
-
-🖼️ Dashboard Preview
-
-🚀 How to Use
-Clone or download this repository.
-Open the Power BI .pbix file.
-Ensure the dataset path is correctly configured.
-Refresh the data if required.
-Use the dashboard filters and slicers to explore the data.
-📚 Skills Demonstrated
-Data Cleaning
-Data Transformation
-Data Visualization
-Exploratory Data Analysis
-Business Intelligence
-KPI Development
-DAX
-Power Query
-Dashboard Design
-Business Data Analysis
-🔮 Future Improvements
-Add sales forecasting
-Add customer segmentation
-Add real-time data
-Integrate SQL database
-Automate data refresh
-Add advanced profitability analysis
-
